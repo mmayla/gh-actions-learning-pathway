@@ -1,8 +1,8 @@
-name: hello-world
+name: build-test-deploy
 on: push
 
 jobs:
-  hello-world-job:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository code
